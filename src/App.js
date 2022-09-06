@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Themecontext from "./Store/Theme-context";
+const App = () => {
+  const [themesetter, setthemesetter] = useState(true);
+  const darkthemehandler = () => {
+    setthemesetter(false);
+  };
+  const lightthemehandler = () => {
+    setthemesetter(true);
+  };
+  console.log(themesetter);
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Themecontext.Provider
+      value={{
+        light: themesetter,
+        lighthandle: lightthemehandler,
+        darkhandle: darkthemehandler,
+      }}
+    >
+      <div className="App">
+        <Header></Header>
+        <Main></Main>
+        <Footer></Footer>
+      </div>
+    </Themecontext.Provider>
   );
-}
+};
 
 export default App;

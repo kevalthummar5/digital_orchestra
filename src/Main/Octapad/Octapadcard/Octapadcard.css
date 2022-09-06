@@ -1,0 +1,35 @@
+.Octapadcard {
+  position: relative;
+  display: inline-block;
+  top: 3px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  left: 1px;
+  margin: 0.01px 1.3px;
+  /* z-index: 11; */
+  width: 36px;
+  height: 26px;
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 43, 43),
+    rgb(189, 177, 177),
+    rgb(44, 43, 43)
+  );
+}
+.Octapadcard:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(189, 177, 177),
+    rgb(216, 159, 159),
+    rgb(189, 177, 177)
+  );
+  cursor: pointer;
+}
+.Octapadcard:active {
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 43, 43),
+    rgb(189, 177, 177),
+    rgb(44, 43, 43)
+  );
+}

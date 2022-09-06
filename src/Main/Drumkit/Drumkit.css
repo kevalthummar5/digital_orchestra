@@ -1,0 +1,148 @@
+.mydrumkit {
+  /* border: 2px solid blue; */
+  /* background-color: aliceblue; */
+  width: fit-content;
+  z-index: 6;
+  position: absolute;
+  left: 12vw;
+  margin: 20px;
+}
+.mydrumkit img {
+  width: 500px;
+}
+
+.mydrumkittaal1 {
+  rotate: -6deg;
+  position: absolute;
+  display: inline-block;
+  top: 137px;
+  left: 8px;
+  width: 119px;
+  height: 30px;
+  border-radius: 110%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.625), #cc671abf);
+  /* z-index: 5; */
+  /* background-color: transparent; */
+}
+.mydrumkittaal1:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(#cc671a71, rgb(223, 222, 222));
+}
+.mydrumkittaal1:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(#fff56d, rgb(223, 222, 222));
+}
+.mydrumkittaal2 {
+  rotate: 0deg;
+  position: absolute;
+  display: inline-block;
+  top: 17px;
+  left: 117px;
+  width: 99px;
+  height: 27px;
+  transition: all 1s;
+  border-radius: 110%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.625), #cc671abf);
+  /* z-index: 5; */
+  /* background-color: transparent; */
+}
+.mydrumkittaal2:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(#cc671a71, rgb(223, 222, 222));
+}
+.mydrumkittaal2:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(#fff56d, rgb(223, 222, 222));
+}
+
+.mydrumkitdhol1 {
+  rotate: -5deg;
+  position: absolute;
+  display: inline-block;
+  top: 215px;
+  left: 106px;
+  width: 108px;
+  height: 40px;
+  border-radius: 110%;
+  /* z-index: 5; */
+  background-image: radial-gradient(white, #8d6262);
+}
+.mydrumkitdhol1:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  background-image: radial-gradient(gray, rgb(223, 222, 222));
+  cursor: pointer;
+}
+.mydrumkitdhol1:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(white, #8d6262);
+}
+
+.mydrumkitdhol2 {
+  rotate: -1deg;
+  position: absolute;
+  display: inline-block;
+  top: 161px;
+  left: 216px;
+  width: 64px;
+  height: 16px;
+  border-radius: 110%;
+  background-image: radial-gradient(white, #4e9f3d);
+
+  /* z-index: 5; */
+}
+.mydrumkitdhol2:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(gray, rgb(223, 222, 222));
+}
+.mydrumkitdhol2:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(white, #4e9f3d);
+}
+.mydrumkitdhol3 {
+  rotate: 3deg;
+  position: absolute;
+  display: inline-block;
+  top: 161px;
+  left: 298px;
+  width: 72px;
+  height: 18px;
+  background-image: radial-gradient(white, #f582a7);
+  border-radius: 110%;
+  /* z-index: 1; */
+}
+.mydrumkitdhol3:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(gray, rgb(223, 222, 222));
+}
+.mydrumkitdhol3:active {
+  background-image: radial-gradient(white, #f582a7);
+}
+.mydrumkitdhol4 {
+  rotate: 6deg;
+  position: absolute;
+  display: inline-block;
+  top: 193px;
+  left: 366px;
+  width: 122px;
+  height: 38px;
+  border-radius: 110%;
+  background-image: radial-gradient(white, #8b9a46);
+}
+.mydrumkitdhol4:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(gray, rgb(223, 222, 222));
+}
+.mydrumkitdhol4:active {
+  background-image: radial-gradient(white, #8b9a46);
+}

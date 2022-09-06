@@ -1,0 +1,36 @@
+.nagara {
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
+  z-index: 10;
+
+  /* background-color: blueviolet; */
+  /* border: 2px solid firebrick; */
+  width: fit-content;
+}
+.nagara img {
+  width: 250px;
+}
+
+.nagaradhol1 {
+  rotate: -4deg;
+  position: absolute;
+  display: inline-block;
+  top: 12px;
+  left: 17px;
+  width: 219px;
+  height: 43px;
+  border-radius: 110%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.625), #ecb365);
+  /* z-index: 5; */
+}
+.nagaradhol1:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(#ecb365, rgb(223, 222, 222));
+}
+.nagaradhol1:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.625), #cc671abf);
+}

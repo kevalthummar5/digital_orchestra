@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main {
+  /* background-color: aqua; */
+  position: relative;
+  /* background-image: linear-gradient(to right, #fea82f, #fcecdd, #fea82f); */
+  /* background-image= 'linear-gradient(to right, #5800ff, #00d7ff, #5800ff)'; */
+
+  height: 70vh;
+  overflow: hidden;
+  z-index: 5;
+  border-radius: 30px;
+  /* margin: 10px 20px; */
+  width: 60vw;
+  margin: auto;
+  box-shadow: 10px 10px 30px #555454a4;
+}
+.octapadstand {
+  position: absolute;
+  height: 120px;
+  width: 7px;
+  top: 40vh;
+  z-index: 6;
+  left: 14vw;
+  background-image: linear-gradient(to right, grey, rgb(189, 177, 177), gray);
+}
+.mainfloor {
+  position: absolute;
+  height: 118vh;
+  width: 63vw;
+  top: 43vh;
+  left: -1vw;
+  z-index: 5;
+  border-radius: 68%;
+  /* background-image: radial-gradient(white, #512b2b); */
+  /* background-image: radial-gradient(white, #f02b76); */
+
+  /* background-color: radical-gradient(); */
+}

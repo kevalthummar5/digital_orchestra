@@ -1,0 +1,32 @@
+.Keycard {
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  left: 0px;
+  margin: 0.01px 0.6px;
+  /* z-index: 11; */
+  width: 10px;
+  height: 32px;
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 132, 132),
+    white /* rgb(165, 162, 162) */
+  );
+}
+.Keycard:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 75, 69),
+    rgb(135, 111, 111)
+  );
+  cursor: pointer;
+}
+.Keycard:active {
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 132, 132),
+    white /* rgb(165, 162, 162) */
+  );
+}

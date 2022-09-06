@@ -1,0 +1,54 @@
+.tabala {
+  /* display: none; */
+  top: 50vh;
+  left: 12vw;
+  z-index: 10;
+  /* background-color: lawngreen; */
+  /* border: 2px solid hotpink; */
+  width: fit-content;
+  position: absolute;
+  rotate: -16deg;
+}
+.tabaladhol1 {
+  rotate: -5deg;
+  position: absolute;
+  display: inline-block;
+  top: 7px;
+  left: 16px;
+  width: 66px;
+  height: 41px;
+  border-radius: 110%;
+  /* /* z-index: 5; */
+  background-image: radial-gradient(black, #ffd369);
+}
+.tabaladhol1:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(rgb(81, 70, 70), rgb(245, 245, 72));
+}
+.tabaladhol1:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.625), #ecb365);
+}
+.tabaladhol2 {
+  rotate: 7deg;
+  position: absolute;
+  display: inline-block;
+  top: 16px;
+  left: 128px;
+  width: 41px;
+  height: 25px;
+  border-radius: 110%;
+  background-image: radial-gradient(black, #ffd369);
+}
+.tabaladhol2:hover {
+  /* opacity: 1; */
+  /* display: inline-block; */
+  cursor: pointer;
+  background-image: radial-gradient(rgb(81, 70, 70), rgb(245, 245, 72));
+}
+.tabaladhol2:active {
+  /* visibility: visible; */
+  background-image: radial-gradient(black, #ecb365);
+}
